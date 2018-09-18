@@ -5,5 +5,5 @@ const App = function() {
   return <div>Hi!</div>;
 };
 
-const root = document.querySelector('.container');
-ReactDOM.render(<App />, root);
+
+ReactDOM.render(<App />, document.querySelector('.container'));
